@@ -15,5 +15,9 @@
     "gulp-imagemin": "^7.0.0",
     "gulp-webp": "^4.0.1",
     "sass": "^1.52.3"
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
 }
