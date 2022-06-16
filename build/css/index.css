@@ -763,6 +763,7 @@ h3 {
   min-height: 80vh;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
+  background-color: #DBDFFD;
 }
 @media (min-width: 1200px) {
   .footer__grid {
