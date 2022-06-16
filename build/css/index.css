@@ -562,7 +562,7 @@ h3 {
 .info {
   min-height: 100vh;
   background-repeat: no-repeat;
-  background-size: 100%, 110rem;
+  background-size: 100%, 140rem;
   background-position: center center;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
