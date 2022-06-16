@@ -73,11 +73,15 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
+
+    @media (min-width: 1200px) {
+        text-align: left;
+    }
 }
 
 .info__title {
     margin: 0;
-    text-align: center;
     line-height: 1.5;
     font-family: v.$font_secondary;
     color: v.$black;
@@ -90,7 +94,6 @@
 
 .info__desc{
     font-size: 2rem;
-    text-align: center;
     line-height: 1.6;
 
     @media (min-width: 1200px) {
