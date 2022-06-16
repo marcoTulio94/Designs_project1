@@ -3,25 +3,25 @@
 
 
 .notavif .notwebp .info {
-    background-image: linear-gradient(to bottom, transparent 50%, v.$color_secondary 0%), url('/DesingsPorfolio/project1/build/img/pexels-rafa-de-345415.jpg');
+    background-image: linear-gradient(to bottom, transparent 50%, v.$color_secondary 0%), url(../img/pexels-rafa-de-345415.jpg);
 }
 .avif .info {
-    background-image: linear-gradient(to bottom, transparent 50%, v.$color_secondary 0%), url('/DesingsPorfolio/project1/build/img/pexels-rafa-de-345415.avif');
+    background-image: linear-gradient(to bottom, transparent 50%, v.$color_secondary 0%), url(../img/pexels-rafa-de-345415.avif);
 }
 .webp .info {
-    background-image: linear-gradient(to bottom, transparent 50%, v.$color_secondary 0%), url('/DesingsPorfolio/project1/build/img/pexels-rafa-de-345415.webp');
+    background-image: linear-gradient(to bottom, transparent 50%, v.$color_secondary 0%), url(../img/pexels-rafa-de-345415.webp);
 }
 
 
 @include m.tablet{
     .notavif .notwebp .info {
-        background-image: linear-gradient(to right, transparent 50%, v.$color_secondary 0%), url('/DesingsPorfolio/project1/build/img/pexels-rafa-de-345415.jpg');
+        background-image: linear-gradient(to right, transparent 50%, v.$color_secondary 0%), url(../img/pexels-rafa-de-345415.jpg);
     }
     .avif .info {
-        background-image: linear-gradient(to right, transparent 50%, v.$color_secondary 0%), url('/DesingsPorfolio/project1/build/img/pexels-rafa-de-345415.avif');
+        background-image: linear-gradient(to right, transparent 50%, v.$color_secondary 0%), url(../img/pexels-rafa-de-345415.avif);
     }
     .webp .info {
-        background-image: linear-gradient(to right, transparent 50%, v.$color_secondary 0%), url('/DesingsPorfolio/project1/build/img/pexels-rafa-de-345415.webp');
+        background-image: linear-gradient(to right, transparent 50%, v.$color_secondary 0%), url(../img/pexels-rafa-de-345415.webp);
     }
 }
 
