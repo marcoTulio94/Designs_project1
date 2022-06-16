@@ -4,9 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/648135cc3c.js" crossorigin="anonymous"></script>
     <title>ShoeStore</title>
+    <link rel="stylesheet" href="build/css/index.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__img">
+                <picture>
+                    <source 
+                    sizes="1920w"
+                    srcset="./build/img/shoes_3.avif 1920w"
+                    type="image/avif"    
+                    >
+                    <source 
+                    sizes="1920w"
+                    srcset="./build/img/shoes_3.webp 1920w"
+                    type="image/webp"    
+                    >
+                    <source 
+                    sizes="1920w"
+                    srcset="./build/img/shoes_3.png 1920w"
+                    type="image/png"    
+                    >
+                    <img src="./build/img/shoes_3.png"  loading="lazy" decoding="async" lazyalt="fronte">
+                </picture>
+            </div>
+            <div class="header__text">
+                <p class="header__tagline"> Calidad Profesional </p>
+                <h1 class="header__title"> SpeedPRO </h1>
+                <p class="header__info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, dignissimos autem veniam ex error alias ut, aut quisquam illum tenetur recusandae corrupti voluptates explicabo, vitae reiciendis amet. Accusamus, fugiat dolorem!</p>
+                <p class="header__price"> from <span>$199</span></p>
+            </div>
+        </div>
+    </header>
+
+    <section class="properties">
+        <div class="container properties__grid">
+            <div class="properti">
+                <div class="properti__icon">
+                    <i class="fa-solid fa-stopwatch-20 "></i>
+                    <!-- <i class="fa-solid fa-bolt"></i>
+                    <i class="fa-solid fa-route"></i> -->
+                </div>
+                <div class="properti__title">
+                    Lorem ipsum dolor sit.
+                </div>
+                <div class="properti__info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, excepturi? Qui voluptas temporibus explicabo natus dicta totam animi vitae! Repellat.
+                </div>
+            </div>
+            <div class="properti">
+                <div class="properti__icon">  
+                    <i class="fa-solid fa-bolt"></i>  
+                </div>
+                <div class="properti__title">
+                    Lorem ipsum dolor sit.
+                </div>
+                <div class="properti__info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, excepturi? Qui voluptas temporibus explicabo natus dicta totam animi vitae! Repellat.
+                </div>
+            </div>
+            <div class="properti">
+                <div class="properti__icon">
+                    <i class="fa-solid fa-route"></i> 
+                </div>
+                <div class="properti__title">
+                    Lorem ipsum dolor sit.
+                </div>
+                <div class="properti__info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, excepturi? Qui voluptas temporibus explicabo natus dicta totam animi vitae! Repellat.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="container info__grid">
+            <div class="info__text">
+                <h2 class="info__title">About Quality SpeedPRO</h2>
+                <p class="info__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quaerat, corrupti quisquam dolores, laboriosam sunt minima, cum architecto enim fugit nulla aperiam. Molestias, porro dignissimos.</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="products">
+        <h1 class="products__title">Choose One of Our Top speedPRO.</h1>
+        <div class="container products__div">
+            <div class="products__grid">
+                <div class="product">
+                    <h2 class="product__title">titleNRO 1</h2>
+                    <p class="product__price">$299</p>
+                </div>
+                <div class="product">
+                    <h2 class="product__title">titleNRO 2</h2>
+                    <p class="product__price">$199</p>
+                </div>
+                <div class="product">
+                    <h2 class="product__title">titleNRO 3</h2>
+                    <p class="product__price">$99</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__pic">
+
+            </div>
+            <div class="update">
+                <h2 class="update__title">Recibe Updates</h2>
+                <p class="update__info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error commodi amet voluptate reprehenderit soluta eos autem labore laborum vitae, nesciunt eum nostrum et libero.</p>
+
+                <form action="" class="update__form">
+                    <input type="email" name="email" id="email" placeholder="Insert your Email." class="update__input">
+                    <button type="submit" class="update__button">Sign Me In</button>
+                </form>
+            </div>
+        </div>
+        <p class="footer__rigths">All rigths Reserved.</p>
+    </footer>
+
+
+    <script src="./modernizer.js"></script>
 </body>
 </html>

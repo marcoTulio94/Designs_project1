@@ -1,0 +1,18 @@
+@use 'variables' as v;
+
+.text-center {
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: v.$color_primary;
+}
+.bg-secondary {
+    background-color: v.$color_secondary;
+}
+.bg-terciary {
+    background-color: v.$color_terciary;
+}
+.bg-fourth {
+    background-color: v.$color_fourth;
+}

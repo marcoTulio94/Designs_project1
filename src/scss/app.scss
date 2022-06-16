@@ -1,6 +1,14 @@
 
 
 @use 'base/index';
+@use 'header/headerIndex';
+@use './about/about';
+@use './info/info';
+@use './products/products';
+@use './footer/footer';
 
+
+// Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+// Get-ExecutionPolicy -List
 
 // sass --watch src/scss/app.scss build/css/index.css
